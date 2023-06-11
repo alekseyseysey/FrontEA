@@ -1,0 +1,673 @@
+.mainContainer {
+  max-width: 1920px;
+  height: 2086px;
+  margin: 0 auto;
+  
+}
+
+.mainLeadContainer {
+  max-width: 1920px;
+  height: 851px;
+  margin: 0 auto;
+}
+
+.mainLead {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+    animation: mainLead 1.5s linear;
+
+}
+
+.container {
+  position: relative;
+  left: -100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+    // animation: containerAnimation 1.5s linear;
+}
+
+
+
+.mainAdvisorsContainer {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  left: 865px / 1920px * 100%;
+  background-image: url(../resurce/img/logo.png);
+//   animation: containerAnimation 1.5s linear;
+}
+
+.mainImgFirst {
+  width: 470px;
+  height: 400px;
+  background-image: url(../resurce/img/Vector.png);
+  margin-top: 0;
+//   animation: mainImg 1.5s linear;
+
+  
+}
+
+.mainImgSecond {
+  width: 271px;
+  height: 327px;
+  background-image: url(../resurce/img/Vector2.png);
+  background-repeat: no-repeat;
+    // animation: mainImg 1.5s linear;
+}
+
+.mainAdvisors {
+  width: 190px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.mainAdvisorsLogoText {
+  display: flex;
+  flex-wrap: wrap;
+  width: 114px;
+  height: 47px;
+}
+
+.mainUnder {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 838px / 838px * 100%;
+  height: 137px;
+}
+
+
+
+.mainUnderMain {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 104%;
+  color: #162c4e;
+  opacity: 0.39;
+  animation: mainUnderMain 1.5s linear;
+}
+
+
+
+.mainUnderLorem {
+  width: 50%;
+  height: 54px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0 auto;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.8);
+  animation: mainUnderLorem 1.5s linear;
+
+
+}
+
+
+
+
+.mainTimeContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 588px;
+  height: 130px;
+  animation: mainTimeContainer 1.5s linear;
+
+}
+
+
+
+.timeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 152px / 588px * 100%;
+  height: 130px;
+}
+
+.dots {
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../resurce/img/dots.png);
+  width: 19px;
+  height: 72px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 100%;
+
+  color: #162c4e;
+}
+
+.logoTime {
+  position: relative;
+  width: 100%;
+  height: 54px / 130px * 100%;
+  background-image: url(../resurce/img/time.png);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.timeText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.time {
+  font-size: 72px;
+  color: #162c4e;
+}
+
+.buttonContainer {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 338px;
+  height: 99px;
+  animation: buttonContainer 1.5s linear;
+
+}
+
+.textButtonContainer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+
+}
+
+.mainEventButton {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+  position: relative;
+  margin: 0 auto;
+  width: 240px;
+  height: 60px;
+  background: #1d4169;
+  border-radius: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
+
+.buttonImg {
+  position: absolute;
+  background-image: url(../resurce/img/line.png);
+  width: 20px;
+  height: 20px;
+  left: 200px;
+  top: 33%;
+}
+
+@media (max-width: 1920px) {
+  .mainUnderMain {
+    font-size: 67px;
+  }
+}
+
+@media (max-width: 1860px) {
+  .mainUnderMain {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 1610px) {
+  .mainUnderMain {
+    font-size: 54px;
+  }
+  .mainUnderLorem {
+    font-size: 16px;
+    line-height: 24px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 1441px) {
+  .mainUnderMain {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .mainUnderMain {
+    text-align: center;
+    font-size: 40px;
+  }
+  .mainUnderLorem {
+    width: 70%;
+  }
+
+  .mainImgFirst {
+    width: 470px;
+    height: 400px;
+    background-image: url(../resurce/img/Vector700.png);
+    background-repeat: no-repeat;
+  }
+  .mainImgSecond {
+    width: 271px;
+    height: 327px;
+    background-image: url(../resurce/img/Vector2700.png);
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 1111px) {
+  .container {
+    left: -60px;
+  }
+
+  .mainUnder {
+    margin-top: 50px;
+    width: 423px;
+    height: 137px;
+  }
+  .mainUnderMain {
+    font-size: 36px;
+    text-align: center;
+  }
+  .mainImgFirst {
+    width: 370px;
+    height: 200px;
+    background-image: url(../resurce/img/Vector700.png);
+    background-repeat: no-repeat;
+  }
+  .mainImgSecond {
+    width: 271px;
+    height: 227px;
+    background-image: url(../resurce/img/Vector2700.png);
+    background-repeat: no-repeat;
+  }
+
+  .mainTimeContainer {
+    width: 358px;
+    height: 82px;
+  }
+
+  .timeContainer {
+    width: 64px / 358px * 100%;
+    height: 82px;
+  }
+
+  .dots {
+    background-image: url(../resurce/img/dots2.png);
+    width: 10px;
+    height: 36px;
+  }
+
+  .logoTime {
+    width: 64px;
+    height: 40px;
+    background-image: url(../resurce/img/time2.png);
+  }
+
+  .timeText {
+    font-size: 12px;
+  }
+
+  .time {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 990px) {
+  .container {
+    left: -70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    left: -50px;
+  }
+
+  .mainImgFirst {
+    width: 270px;
+    height: 200px;
+    background-size: 200px 200px;
+
+    background-image: url(../resurce/img/Vector700.png);
+    background-repeat: no-repeat;
+  }
+  .mainImgSecond {
+    width: 220px;
+    height: 227px;
+    background-size: 220px 300px;
+    background-image: url(../resurce/img/Vector2700.png);
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 600px) {
+  .mainAdvisorsContainer {
+    width: 160px;
+    height: 50px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-image: url(../resurce/img/logo.png);
+    background-size: 140px 50px;
+    z-index: 100;
+  }
+
+  .mainAdvisors {
+    width: 128px;
+    height: 60px;
+    margin: 0 auto;
+  }
+
+  .container {
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .mainImgFirst {
+    width: 270px;
+    height: 200px;
+    background-size: 200px 200px;
+    background-image: url(../resurce/img/Vector360.png);
+    background-repeat: no-repeat;
+  }
+  .mainImgSecond {
+    width: 271px;
+    height: 227px;
+    background-size: 271px 227px;
+    background-image: url(../resurce/img/Vector2700.png);
+    background-repeat: no-repeat;
+  }
+
+  .mainUnder {
+    display: flex;
+    flex-direction: column;
+    width: 320px / 360px * 100%;
+    left: 20px / 360px * 100%;
+  }
+
+  .mainUnderMain {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 104%;
+    color: #162c4e;
+    opacity: 0.39;
+  }
+
+  .mainUnderLorem {
+    width: 316px;
+    height: 48px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .mainTimeContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 358px;
+    height: 82px;
+  }
+
+  .timeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 64px / 358px * 100%;
+    height: 82px;
+  }
+
+  .dots {
+    display: flex;
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-image: url(../resurce/img/dots2.png);
+    width: 10px;
+    height: 36px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100%;
+
+    color: #162c4e;
+  }
+
+  .logoTime {
+    position: relative;
+    width: 64px;
+    height: 40px;
+    background-image: url(../resurce/img/time2.png);
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  .timeText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    color: white;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .time {
+    font-size: 36px;
+    color: #162c4e;
+  }
+
+  .buttonContainer {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 338px;
+    height: 99px;
+  }
+
+  .textButtonContainer {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+  }
+
+  .mainEventButton {
+    position: relative;
+    margin: 0 auto;
+    width: 240px;
+    height: 60px;
+    background: #1d4169;
+    border-radius: 40px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+
+  .buttonImg {
+    position: absolute;
+    background-image: url(../resurce/img/line.png);
+    width: 20px;
+    height: 20px;
+    left: 200px;
+    top: 33%;
+  }
+}
+
+@media (max-width: 460px) {
+  .mainLeadContainer {
+    max-width: 1920px;
+    height: 751px;
+    margin: 0 auto;
+  }
+  .mainLead {
+    position: relative;
+    display: block;
+    height: 184px;
+  }
+
+  .mainImgFirst {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 182px;
+    height: 146px;
+    background-size: 182px 146px;
+    background-image: url(../resurce/img/Vector360.png);
+    background-repeat: no-repeat;
+  }
+  .mainImgSecond {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 184px;
+    height: 215px;
+    background-size: 184px 215px;
+    background-image: url(../resurce/img/Frame2103.png);
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    position: absolute;
+    top: 50%;
+  }
+
+  .mainAdvisorsContainer {
+    position: absolute;
+    left: 166px;
+    width: 128px;
+    height: 39px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-image: url(../resurce/img/logo.png);
+    background-size: 128px 39px;
+  }
+}
+
+@media (max-width: 360px) {
+  .mainLeadContainer {
+    max-width: 1920px;
+    height: 751px;
+    margin: 0 auto;
+  }
+  .mainLead {
+    position: relative;
+    display: block;
+    height: 184px;
+  }
+
+  .mainImgFirst {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 182px;
+    height: 146px;
+    background-size: 182px 146px;
+    background-image: url(../resurce/img/Vector360.png);
+    background-repeat: no-repeat;
+  }
+  .mainImgSecond {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 184px;
+    height: 215px;
+    background-size: 184px 215px;
+    background-image: url(../resurce/img/Frame2103.png);
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    position: absolute;
+    top: 50%;
+  }
+
+  .mainAdvisorsContainer {
+    position: absolute;
+    left: 116px;
+    width: 128px;
+    height: 39px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-image: url(../resurce/img/logo.png);
+    background-size: 128px 39px;
+  }
+
+  .mainUnderLorem {
+    width: 286px;
+    height: 48px;
+    font-size: 15px;
+  }
+
+  .mainTimeContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 320px;
+    height: 82px;
+  }
+
+  .buttonContainer {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 320px;
+    height: 99px;
+  }
+
+  .textButtonContainer {
+    font-size: 16px;
+  }
+
+  .mainEventButton {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}

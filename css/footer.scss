@@ -1,0 +1,164 @@
+footer{
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.footerContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 1920px;
+  height: 192px;
+  background: #162c4e;
+  justify-content: space-evenly;
+}
+
+.form{
+    margin-left: 25%;
+    // margin: 0 auto;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 100px;
+  width: 440px;
+  border: 1px solid #000;
+  min-height: 20px;
+  height: 59px;
+}
+
+.footerInput {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.6);
+  width: 350px;
+  border: none;
+  outline: none;
+  background: #ffffff;
+  border-radius: 30px;
+
+  border: none;
+  outline: none;
+  vertical-align: middle;
+}
+
+.inputButton {
+  width: 47px;
+  height: 47px;
+  border: none;
+  border-radius: 100px;
+  background-color: #df2224;
+  background-repeat: no-repeat;
+  background-image: url(../resurce/img/arrow-right.png);
+  background-position: center;
+  border: none;
+}
+
+.footerFrame {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.footerFrameText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+
+  
+
+.footerFrameImg {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  background-image: url(../resurce/img/footline2.png);
+}
+
+
+
+  .footerFrameTextDecor{
+    text-decoration: underline;
+    transition: 0.5;
+  }
+
+  .footerFrameImgRotate{
+    rotate: -180deg;
+    transition: 1s;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+@media (max-width: 1111px) {
+  .footerContainer {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    max-width: 1920px;
+    height: 192px;
+    background: #162c4e;
+  }
+  .form{
+    margin: 0 auto;
+}
+
+}
+
+@media (max-width: 768px) {
+  
+    .search {
+        width: 360px;
+        height: 41px;
+      }
+
+      .inputButton {
+        width: 33px;
+        height: 33px;
+      }
+
+      .footerInput {
+        width: 300px;
+      }
+
+  }
+  
+@media (max-width: 360px) {
+  
+    .search {
+        width: 280px;
+        height: 41px;
+      }
+
+      .inputButton {
+        width: 33px;
+        height: 33px;
+      }
+
+      .footerInput {
+        width: 200px;
+      }
+
+  } 
